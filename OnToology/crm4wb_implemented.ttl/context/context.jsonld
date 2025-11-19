@@ -286,9 +286,6 @@
     "E80_Part_Removal" : {
       "@id" : "http://www.cidoc-crm.org/cidoc-crm/E80_Part_Removal"
     },
-    "license" : {
-      "@id" : "http://purl.org/dc/terms/license"
-    },
     "R19i_was_realised_through" : {
       "@id" : "http://iflastandards.info/ns/lrm/lrmoo/R19i_was_realised_through",
       "@type" : "@id"
@@ -434,9 +431,6 @@
     "P92_brought_into_existence" : {
       "@id" : "http://www.cidoc-crm.org/cidoc-crm/P92_brought_into_existence",
       "@type" : "@id"
-    },
-    "mappingRelation" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#mappingRelation"
     },
     "P161_has_spatial_projection" : {
       "@id" : "http://www.cidoc-crm.org/cidoc-crm/P161_has_spatial_projection",
@@ -1366,9 +1360,6 @@
       "@id" : "http://www.cidoc-crm.org/extensions/crmarchaeo/AP3_investigated",
       "@type" : "@id"
     },
-    "rights" : {
-      "@id" : "http://purl.org/dc/terms/rights"
-    },
     "P43_has_dimension" : {
       "@id" : "http://www.cidoc-crm.org/cidoc-crm/P43_has_dimension",
       "@type" : "@id"
@@ -1544,9 +1535,6 @@
     },
     "P7" : {
       "@id" : "https://wikiba.se/bootstrap#P7"
-    },
-    "preferredNamespacePrefix" : {
-      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
     },
     "R36_uses_script_conversion" : {
       "@id" : "http://iflastandards.info/ns/lrm/lrmoo/R36_uses_script_conversion",
@@ -1796,9 +1784,6 @@
     "L20i_was_created_by" : {
       "@id" : "http://www.cidoc-crm.org/extensions/crmdig/L20i_was_created_by",
       "@type" : "@id"
-    },
-    "publisher" : {
-      "@id" : "http://purl.org/dc/terms/publisher"
     },
     "E85_Joining" : {
       "@id" : "http://www.cidoc-crm.org/cidoc-crm/E85_Joining"
@@ -2273,9 +2258,6 @@
       "@id" : "http://iflastandards.info/ns/lrm/lrmoo/R81i_is_recorded_in",
       "@type" : "@id"
     },
-    "contributor" : {
-      "@id" : "http://purl.org/dc/terms/contributor"
-    },
     "P75_possesses" : {
       "@id" : "http://www.cidoc-crm.org/cidoc-crm/P75_possesses",
       "@type" : "@id"
@@ -2537,9 +2519,6 @@
     },
     "P80_end_is_qualified_by" : {
       "@id" : "http://www.cidoc-crm.org/cidoc-crm/P80_end_is_qualified_by"
-    },
-    "preferredNamespaceUri" : {
-      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
     },
     "P140_assigned_attribute_to" : {
       "@id" : "http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to",

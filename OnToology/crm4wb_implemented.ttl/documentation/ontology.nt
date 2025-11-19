@@ -1,33 +1,7 @@
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2002/07/owl#versionIRI> <http://cidoc-crm.org/extensions/lrmoo/owl/1.0/> .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2002/07/owl#imports> <http://www.cidoc-crm.org/cidoc-crm/owl/7.1.2/> .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2002/07/owl#imports> <http://www.cidoc-crm.org/extensions/crmsci/owl/2.0/> .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://purl.org/dc/terms/contributor> "Clair Kronk" .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://purl.org/dc/terms/contributor> "David Lindemann" .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://purl.org/dc/terms/contributor> "Ismael Olea" .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://purl.org/dc/terms/contributor> "Tuukka Hastrup" .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://purl.org/dc/terms/creator> "Ismael Olea" .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://purl.org/dc/terms/description> "An essential set of entities for new Wikibase instances, mapped with Wikidata and selected by practicalities and common use" .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/> .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://purl.org/dc/terms/publisher> <http://www.wikidata.org/entity/Q51033881> .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://purl.org/dc/terms/rights> "CC0 1.0 Universal" .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://purl.org/dc/terms/title> "The Wikibase bootstrap set" .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://purl.org/dc/terms/title> "Wikibase datatypes mapping for CIDOC CRM and extensions" .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "wbbs" .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://purl.org/vocab/vann/preferredNamespaceUri> <https://wikiba.se/bootstrap#> .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2000/01/rdf-schema#comment> "An OWL DL 1.0 implementation of the CIDOC Conceptual Reference Model."@en .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2000/01/rdf-schema#label> "CRMarchaeo 2.1.1 / OWL"@en .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2000/01/rdf-schema#label> "CRMdig 4.0 (DRAFT) / OWL"@en .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2000/01/rdf-schema#label> "CRMsci 2.0 / OWL"@en .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2000/01/rdf-schema#label> "LRMoo 1.0 / OWL"@en .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2000/01/rdf-schema#label> "Owl Implementation of CIDOC-CRM 7.1.3 (February 2024)."@en .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2002/07/owl#versionInfo> "CIDOC-CRM 7.1.3 February 2024"@en .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2002/07/owl#versionInfo> "CRMarchaeo 2.1.1 (April, 2024) including references to CIDOC-CRM 7.1.2 and CRMsci 2.0"@en .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2002/07/owl#versionInfo> "CRMdig 4.0 (DRAFT) (December, 2022) including references to CIDOC-CRM 7.1.1. Current encoding (February, 2024) references Cidoc-CRM 7.1.3."@en .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2002/07/owl#versionInfo> "CRMsci Ontology 2.0 (March, 2023) including references to CIDOC-CRM 7.1.2"@en .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2002/07/owl#versionInfo> "LRMoo Ontology 1.0 (May, 2024) including references to CIDOC-CRM 7.1.3"@en .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2002/07/owl#versionInfo> "2025-10-21" .
-<http://iflastandards.info/ns/lrm/lrmoo/> <http://www.w3.org/2002/07/owl#versionInfo> "2025-11-18" .
+<http://wikiba.se/crm4wb#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://wikiba.se/crm4wb#> <http://purl.org/dc/terms/creator> "Ismael Olea" .
+<http://wikiba.se/crm4wb#> <http://purl.org/dc/terms/title> "Wikibase datatypes mapping for CIDOC CRM and extensions" .
+<http://wikiba.se/crm4wb#> <http://www.w3.org/2002/07/owl#versionInfo> "2025-11-18" .
 # 
 # 
 # #################################################################
@@ -37,32 +11,14 @@
 # #################################################################
 # 
 # 
-# http://purl.org/dc/terms/contributor
-<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
 # http://purl.org/dc/terms/creator
 <http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/dc/terms/description
 <http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
-# http://purl.org/dc/terms/license
-<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://purl.org/dc/terms/publisher
-<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://purl.org/dc/terms/rights
-<http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://purl.org/vocab/vann/preferredNamespacePrefix
-<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-# 
-# http://purl.org/vocab/vann/preferredNamespaceUri
-<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://www.w3.org/2004/02/skos/core#altLabel
 <http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -70,8 +26,14 @@
 # http://www.w3.org/2004/02/skos/core#exactMatch
 <http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://www.w3.org/2004/02/skos/core#notation
+<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://www.w3.org/2004/02/skos/core#note
 <http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # 
 # 
@@ -14440,9 +14402,6 @@
 <http://www.cidoc-crm.org/extensions/crmsci/S9_Property_Type> <http://www.w3.org/2004/02/skos/core#prefLabel> "Property Type"@en .
 <http://www.cidoc-crm.org/extensions/crmsci/S9_Property_Type> <https://wikiba.se/bootstrap#P5> <http://www.cidoc-crm.org/extensions/crmsci/S9_Property_Type> .
 # 
-# http://www.w3.org/2004/02/skos/core#mappingRelation
-<http://www.w3.org/2004/02/skos/core#mappingRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-# 
 # 
 # 
 # #################################################################
@@ -14456,10 +14415,6 @@
 <https://wikiba.se/bootstrap#P6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://wikiba.se/bootstrap#P6> <https://wikiba.se/bootstrap#P7> "http://www.wikidata.org/entity/$1" .
 <https://wikiba.se/bootstrap#P6> <https://wikiba.se/bootstrap#P8> "http://www.wikidata.org/entity/$1" .
-# 
-# https://wikiba.se/wikibase-crm-mapping#
-<https://wikiba.se/wikibase-crm-mapping#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://wikiba.se/wikibase-crm-mapping#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#mappingRelation> .
 # 
 # 
 # 

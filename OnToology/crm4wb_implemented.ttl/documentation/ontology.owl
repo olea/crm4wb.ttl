@@ -1,44 +1,17 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://iflastandards.info/ns/lrm/lrmoo/"
-     xml:base="http://iflastandards.info/ns/lrm/lrmoo/"
+<rdf:RDF xmlns="http://wikiba.se/crm4wb#"
+     xml:base="http://wikiba.se/crm4wb"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:bootstrap="https://wikiba.se/bootstrap#">
-    <owl:Ontology rdf:about="http://iflastandards.info/ns/lrm/lrmoo/">
-        <owl:versionIRI rdf:resource="http://cidoc-crm.org/extensions/lrmoo/owl/1.0/"/>
-        <owl:imports rdf:resource="http://www.cidoc-crm.org/cidoc-crm/owl/7.1.2/"/>
-        <owl:imports rdf:resource="http://www.cidoc-crm.org/extensions/crmsci/owl/2.0/"/>
-        <terms:contributor>Clair Kronk</terms:contributor>
-        <terms:contributor>David Lindemann</terms:contributor>
-        <terms:contributor>Ismael Olea</terms:contributor>
-        <terms:contributor>Tuukka Hastrup</terms:contributor>
+    <owl:Ontology rdf:about="http://wikiba.se/crm4wb#">
         <terms:creator>Ismael Olea</terms:creator>
-        <terms:description>An essential set of entities for new Wikibase instances, mapped with Wikidata and selected by practicalities and common use</terms:description>
-        <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-        <terms:publisher rdf:resource="http://www.wikidata.org/entity/Q51033881"/>
-        <terms:rights>CC0 1.0 Universal</terms:rights>
-        <terms:title>The Wikibase bootstrap set</terms:title>
         <terms:title>Wikibase datatypes mapping for CIDOC CRM and extensions</terms:title>
-        <vann:preferredNamespacePrefix>wbbs</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri rdf:resource="https://wikiba.se/bootstrap#"/>
-        <rdfs:comment xml:lang="en">An OWL DL 1.0 implementation of the CIDOC Conceptual Reference Model.</rdfs:comment>
-        <rdfs:label xml:lang="en">CRMarchaeo 2.1.1 / OWL</rdfs:label>
-        <rdfs:label xml:lang="en">CRMdig 4.0 (DRAFT) / OWL</rdfs:label>
-        <rdfs:label xml:lang="en">CRMsci 2.0 / OWL</rdfs:label>
-        <rdfs:label xml:lang="en">LRMoo 1.0 / OWL</rdfs:label>
-        <rdfs:label xml:lang="en">Owl Implementation of CIDOC-CRM 7.1.3 (February 2024).</rdfs:label>
-        <owl:versionInfo xml:lang="en">CIDOC-CRM 7.1.3 February 2024</owl:versionInfo>
-        <owl:versionInfo xml:lang="en">CRMarchaeo 2.1.1 (April, 2024) including references to CIDOC-CRM 7.1.2 and CRMsci 2.0</owl:versionInfo>
-        <owl:versionInfo xml:lang="en">CRMdig 4.0 (DRAFT) (December, 2022) including references to CIDOC-CRM 7.1.1. Current encoding (February, 2024) references Cidoc-CRM 7.1.3.</owl:versionInfo>
-        <owl:versionInfo xml:lang="en">CRMsci Ontology 2.0 (March, 2023) including references to CIDOC-CRM 7.1.2</owl:versionInfo>
-        <owl:versionInfo xml:lang="en">LRMoo Ontology 1.0 (May, 2024) including references to CIDOC-CRM 7.1.3</owl:versionInfo>
-        <owl:versionInfo>2025-10-21</owl:versionInfo>
         <owl:versionInfo>2025-11-18</owl:versionInfo>
     </owl:Ontology>
     
@@ -56,13 +29,6 @@
     
 
 
-    <!-- http://purl.org/dc/terms/contributor -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
-    
-
-
     <!-- http://purl.org/dc/terms/creator -->
 
 
@@ -77,45 +43,10 @@
     
 
 
-    <!-- http://purl.org/dc/terms/license -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/publisher -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/rights -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights"/>
-    
-
-
     <!-- http://purl.org/dc/terms/title -->
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
-    
-
-
-    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
-    
-
-
-    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
     
 
 
@@ -133,10 +64,24 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#notation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#note -->
 
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#note"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
     
 
 
@@ -26858,13 +26803,6 @@ In First Order Logic:
     
 
 
-    <!-- http://www.w3.org/2004/02/skos/core#mappingRelation -->
-
-
-    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -26883,15 +26821,6 @@ In First Order Logic:
     <owl:NamedIndividual rdf:about="https://wikiba.se/bootstrap#P6">
         <bootstrap:P7>http://www.wikidata.org/entity/$1</bootstrap:P7>
         <bootstrap:P8>http://www.wikidata.org/entity/$1</bootstrap:P8>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- https://wikiba.se/wikibase-crm-mapping# -->
-
-
-    <owl:NamedIndividual rdf:about="https://wikiba.se/wikibase-crm-mapping#">
-        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
     </owl:NamedIndividual>
     
 
